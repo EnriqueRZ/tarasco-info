@@ -4,7 +4,7 @@
       <header-component></header-component>
     </header>
     <body>
-      HOLA
+      Contacto
     </body>
     <footer>
       <footer-component></footer-component>
@@ -57,11 +57,4 @@ footer {
   width: 100%;
   z-index: 1;
 }
-/*
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}*/
-
 </style>

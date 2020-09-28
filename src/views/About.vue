@@ -1,10 +1,10 @@
 <template>
-  <div id="main-view">
+  <div id="about">
     <header>
       <header-component></header-component>
     </header>
     <body>
-      <main-content></main-content>
+      about
     </body>
     <footer>
       <footer-component></footer-component>
@@ -18,7 +18,7 @@ import MainContent from '../components/MainContent.vue';
 import Footer from '../components/FooterComponent.vue';
 
 export default {
-  name: 'main-view',
+  name: 'about',
   data () {
     return {
       
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style>
-#main-view {
+#about {
   height: 100%;
   margin: 0;
 }
