@@ -13,7 +13,7 @@
           <b-navbar-nav class="ml-auto">
             <b-navbar-brand> 
               <b-link to="/acercade"> 
-                Acerca de 
+                  Acerca de
               </b-link>
             </b-navbar-brand>
             <b-navbar-brand>

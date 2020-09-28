@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view>
+      <router-link to="/">Home</router-link>
+    </router-view>
   </div>
 </template>
 
 <script>
-
-//import Main from './v/Main';
+import MainView from './views/MainView.vue';
 
 export default {
   name: 'app',
   data () {
     return {
-      components: {
-      }
+      
     }
+  },
+  components: {
+    'mainView': MainView,
   }
 }
 </script>

@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import MainView from '../views/MainView.vue';
+import Contact from '../views/Contact.vue';
 
 Vue.use(VueRouter)
 
@@ -13,12 +14,13 @@ export default new VueRouter({
             name: "App",
             component: MainView
         },
-        /*
+        
         {
-            path: "/login",
-            name: "Login",
-            component: LoginComponent
+            path: "/contacto",
+            name: "Contact",
+            component: Contact
         },
+        /*
         {
             path: "/admin",
             name: "Admin",
