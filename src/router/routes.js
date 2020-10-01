@@ -2,9 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import MainView from '../views/MainView.vue';
-import Contact from '../views/Contact.vue';
-import Services from '../views/Services.vue';
-import About from '../views/About.vue';
+import Contact from '../views/ContactView.vue';
+import Services from '../views/ServicesView.vue';
+import About from '../views/AboutView.vue';
 
 Vue.use(VueRouter)
 

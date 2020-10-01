@@ -1,24 +1,24 @@
 <template>
-  <div id="about">
+  <div id="services-view">
     <header>
       <header-component></header-component>
     </header>
     <body>
-      about
+      <services-component></services-component>
+      <footer>
+        <footer-component></footer-component>
+      </footer>
     </body>
-    <footer>
-      <footer-component></footer-component>
-    </footer>
   </div>
 </template>
 
 <script>
 import Header from '../components/HeaderComponent.vue';
-import MainContent from '../components/MainContent.vue';
+import ServicesComponent from '../components/ServicesComponent.vue';
 import Footer from '../components/FooterComponent.vue';
 
 export default {
-  name: 'about',
+  name: 'services-view',
   data () {
     return {
       
@@ -26,42 +26,29 @@ export default {
   },
   components: {
     'header-component': Header,
-    'main-content': MainContent,
+    'services-component': ServicesComponent,
     'footer-component': Footer,
   }
 }
 </script>
 
 <style>
-#about {
+#services-view {
   height: 100%;
   margin: 0;
 }
 
 html {
   height: 100%;
-  box-sizing: border-box;
 }
 
 body {
-  margin-top: 50px;
-  padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  display: inline-grid;
+  flex-direction: column;
 }
 
-footer {
-  margin-top: -50px;
-  position: fixed;
-  bottom:0;
-  width: 100%;
-  z-index: 1;
+footer{
+  margin-top: auto;
 }
-/*
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}*/
-
 </style>

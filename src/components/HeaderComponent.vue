@@ -3,14 +3,20 @@
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand>
         <b-link to="/"> 
-          <img src="../assets/logo.png" alt="">
+          <b-img 
+        :src="require('../assets/logo.png')"
+        fluid 
+        alt="Responsive image"
+        class="logo-img"
+        >
+      </b-img>
         </b-link>
       </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
+        <b-collapse id="nav-collapse" type="dark" is-nav>
+          <b-navbar-nav type="dark" class="ml-auto">
             <b-navbar-brand> 
               <b-link to="/acercade"> 
                   Acerca de
@@ -49,9 +55,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 50px;
+  height: 80px;
   background-color: #f7f7f7;
-  display: flex;
+  position: sticky;
 }
 
 .navbar {
@@ -101,6 +107,10 @@ export default {
   width: 50%;
   margin-left: 5%;
   text-align: right;
+}
+
+.navbar-toggler {
+  background-color: darkgrey !important; 
 }
 
 </style>

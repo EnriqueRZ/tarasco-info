@@ -46,7 +46,7 @@ export default {
   text-align: center;
   background-color: #580075;
 
-  position:absolute;
+  //position:absolute;
   bottom:0;
   width:100%;
   height:80px; 
