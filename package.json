@@ -1,0 +1,20 @@
+{
+  "name": "tarasco-labs-main",
+  "version": "0.0.1",
+  "description": "Tarasco labs info",
+  "main": "index.js",
+  "authors": {
+    "name": "Enrique Ramirez",
+    "email": "je.ramirez.zuniga@gmail.com"
+  },
+  "repository": "/tarasco-labs-main",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "vuepress": "^1.5.3"
+  }
+}
