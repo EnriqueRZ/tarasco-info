@@ -16,10 +16,10 @@ isShowTitleInHome: false
 #actionLink: /guide/
 features:
 - title: Web Development
-  details: Feature 1 Description
+  details: Node.JS, Vue.JS, React.JS
 - title: Mobile Development
-  details: Feature 2 Description
-- title: Cloud Solution
-  details: Feature 3 Description
+  details: React Native, Flutter
+- title: Cloud Solutions
+  details: GCP, Firebase, AWS
 footer: Made by Enrique Ramirez
 ---
