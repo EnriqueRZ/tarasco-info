@@ -17,15 +17,15 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Services',
+        text: 'Servicios',
         link: '/services/',
       },
       {
-        text: 'Contact',
+        text: 'Contacto',
         link: '/contact/'
       },
       {
-        text: 'About',
+        text: 'Acerca de',
         link: '/about/'
       },
       /*
