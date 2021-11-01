@@ -2,7 +2,7 @@
   <div id="services-component">
      <div class="logo">
       <div class="tecnologies">
-        Technologies
+        Tecnologias
         <b-container class="bv-row">
           <b-row>
             <b-col>
